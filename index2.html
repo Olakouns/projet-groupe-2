@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .center-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .w-35{
+            width: 35%;
+        }
+
+        .form-control{
+            display: flex;
+            flex-direction: column;
+        }
+        .mb-2{
+            margin-bottom: 16px;
+        }
+
+        .form-control-field{
+            padding: 12px;
+            border-radius: 4px;
+            border-color: #7e7e7ed4;
+            border-width: 1px;
+        }
+
+        .form-control-field:focus-visible{
+            border-color: rgb(33, 193, 33);
+            outline: none;
+        }
+
+        .btn-primary{
+            color: white;
+            background-color: rgb(9, 113, 9);
+            border: none;
+            padding: 12px 56px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .center{
+            display: flex;
+            justify-content: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-form">
+        <form action="" method="post" class="w-35">
+            <div class="form-control mb-2">
+                <label for="" class="mb-2">Login</label>
+                <input class="form-control-field" placeholder="jogn@dit.sn" type="text" name="" id="" required>
+            </div>
+            <div class="form-control mb-2">
+                <label for="" class="mb-2">Password</label>
+                <input class="form-control-field" type="password" name="" id="">
+            </div>
+
+            <div class="form-control mb-2">
+                <label for="" class="mb-2">Email</label>
+                <input class="form-control-field" type="email" name="" id="" required>
+            </div>
+
+            <div class="form-control mb-2">
+                <label for="" class="mb-2">Email</label>
+                <textarea class="form-control-field" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+
+
+            <div class="center">
+                <button class="btn-primary" type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+  
+</body>
+</html>

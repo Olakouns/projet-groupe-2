@@ -1,0 +1,115 @@
+body {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    transition: .4s;
+}
+
+.menu-item:hover{
+    color: #FD5B02;
+    font-weight: 700;
+}
+
+.color-primary{
+    color: #FD5B02;
+}
+
+.menu-active {
+    color: #FD5B02;
+    font-weight: 700;
+}
+
+.menu-mr{
+    margin: 0px 10%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FD5B02;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.chips {
+    color: #000000;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 16px 48px;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.banner-title-name{
+    font-weight:600;
+}
+
+.mb-34{
+    margin-bottom: 34px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.about-parent-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-title{
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+
+.about-line{
+    width: 6rem;
+    height: 8px;
+    background: #D9D9D9;
+    border-radius: 4px;
+}
